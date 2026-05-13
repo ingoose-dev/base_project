@@ -1,6 +1,6 @@
 /* fondo del navbar */
 .navbar{
-    background-color: #272222 !important;
+    background-color: #13182b !important;
 }
 
 /* color del texto del navbar */
@@ -17,3 +17,28 @@
 .navbar .nav-link:hover {
     color: #ffc107 !important;
 }
+
+/*Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #131c30 0%, #112d52 100%);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-section .display-4 {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.hero-section .display-4 span {
+    color: #36b3d6;
+    text-decoration: underline;
+    
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+
