@@ -1,0 +1,3 @@
+/*Archivos y carpetas a ignorar */
+.DS_Store
+.vscode/
