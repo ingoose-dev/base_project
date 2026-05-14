@@ -27,16 +27,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Soluciones</a>
+                        <a class="nav-link" href="#soluciones">Soluciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="servicios" class="services-section py-5">
+    <section id="servicios" class="services-section mt-5">
         <div class="container">
             <h2 class="text-center mb-4">Nuestros Servicios</h2>
             <div>
@@ -126,39 +126,140 @@
         </div>
     </section>
 
-    <!-- Soluciones Section -->
-    <section id="soluciones" class="solutions-section py-5 bg-light">
+    <!-- Solutions Section -->
+    <section id="soluciones" class="solutions py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Nuestras Soluciones</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card solution-card">
-                    </div>
+
+            <!-- Header -->
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Soluciones Integrales</h2>
+                <p class="lead text-muted">Tecnología adaptada a las necesidades específicas de tu industria</p>
+            </div>
+
+            <!-- Solución 1: Automatización Industrial (Texto izquierda, Imagen derecha) -->
+            <div class="container row align-items-center g-4 mb-5">
+                <div class="col-lg-6">
+                    <h3 class="h2 mb-3">Automatización Industrial</h3>
+                    <p>Implementamos sistemas de automatización avanzados que integran robótica, sensores IoT y
+                        inteligencia artificial para optimizar procesos de manufactura y reducir costos operativos.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">✓ Robótica colaborativa</li>
+                        <li class="mb-2">✓ Sensores IoT industriales</li>
+                        <li class="mb-2">✓ Sistemas de control inteligente</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/industria.png" alt="Automatización Industrial - INGOOSE"
+                        class="img-fluid rounded shadow" loading="lazy">
                 </div>
             </div>
+
+            <!-- Solución 2: Plataformas Digitales (Imagen izquierda, Texto derecha) -->
+            <div class="container row align-items-center g-4">
+                <div class="col-lg-6 order-lg-2">
+                    <h3 class="h2 mb-3">Plataformas Digitales</h3>
+                    <p>Desarrollamos plataformas digitales personalizadas que conectan todos los aspectos de tu
+                        negocio, desde la producción hasta la gestión de clientes, en un ecosistema integrado.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">✓ Dashboards en tiempo real</li>
+                        <li class="mb-2">✓ Integración de sistemas ERP</li>
+                        <li class="mb-2">✓ Aplicaciones móviles corporativas</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <img src="images/plataformas.png" alt="Plataformas Digitales - INGOOSE"
+                        class="img-fluid rounded shadow" loading="lazy">
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- Nosotros Section -->
-    <section id="nosotros" class="about-section py-5">
+    <section id="nosotros" class="about py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Sobre Nosotros</h2>
-            <p class="text-center">Somos una empresa dedicada a la transformación digital de la industria, ofreciendo
-                soluciones innovadoras y tecnológicas para optimizar los procesos y mejorar la eficiencia.</p>
+            <!-- Row principal con 2 columnas -->
+            <div class="container row align-items-center g-4">
+
+                <!-- Columna de texto (izquierda en desktop, arriba en móvil) -->
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <h2 class="mb-4">Sobre <span class="ingoose-text">INGOOSE</span></h2>
+                    <p class="lead">Somos una empresa especializada en transformación digital e industria 4.0,
+                        comprometida con impulsar la innovación tecnológica en el sector industrial.</p>
+                    <p>Nuestro equipo de expertos combina conocimiento técnico avanzado con experiencia
+                        práctica para ofrecer soluciones que realmente impactan en la eficiencia y
+                        competitividad de nuestros clientes.</p>
+
+                    <!-- Stats con Grid de Bootstrap -->
+                    <div class="row row-cols-1 row-cols-sm-3 g-3 mt-4">
+                        <div class="col">
+                            <div class="text-center">
+                                <h3 class="stat-number display-5 fw-bold mb-0">150+</h3>
+                                <p class="stat-label text-muted small">Proyectos Completados</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="text-center">
+                                <h3 class="stat-number display-5 fw-bold mb-0">98%</h3>
+                                <p class="stat-label text-muted small">Satisfacción del Cliente</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="text-center">
+                                <h3 class="stat-number display-5 fw-bold mb-0">24/7</h3>
+                                <p class="stat-label text-muted small">Soporte Técnico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna de imagen (derecha en desktop, arriba en móvil) -->
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="text-center">
+                        <img src="images/expertos.png" alt="Equipo de Expertos - INGOOSE"
+                            class="img-fluid rounded shadow" loading="lazy">
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contacto" class="contact-section py-5 bg-light">
+    <section id="contacto" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Contacto</h2>
             <p class="text-center">Si deseas más información sobre nuestros servicios y soluciones, no dudes en
                 contactarnos.</p>
         </div>
+        <div class="formulario">
+            <div class="container row justify-content-center g-4">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"
+                                required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="btn_enviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class=" footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
@@ -196,7 +297,8 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 <span class="ingoose-text">INGOOSE</span>. Todos los derechos reservados.</p>
+                <p>&copy; 2025 <span class="ingoose-text">INGOOSE</span>. Todos los derechos
+                    reservados.</p>
             </div>
         </div>
     </footer>
@@ -204,6 +306,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
