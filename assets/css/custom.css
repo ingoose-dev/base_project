@@ -1,32 +1,28 @@
-/* fondo del navbar */
-.navbar{
+/* ==================== NAVBAR ==================== */
+.navbar {
     background-color: #13182b !important;
-
 }
 
-/* color del texto del navbar */
-.navbar .nav-link, .navbar .navbar-brand {
+.navbar .nav-link,
+.navbar .navbar-brand {
     color: #ffffff !important;
 }
 
-/*color del botón del navbar */
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
+
 .navbar-toggler {
     background-color: transparent !important;
-  border: none !important;
+    border: none !important;
 }
 
 .navbar-toggler:focus {
-  box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .navbar-toggler-icon {
- background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-
-/*Color link al pasar el mouse */
-.navbar .nav-link:hover {
-    color: #ffc107 !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .logo-navbar {
@@ -34,8 +30,7 @@
     height: auto;
 }
 
-
-/*Hero Section */
+/* ==================== HERO SECTION ==================== */
 .hero-section {
     background: linear-gradient(135deg, #131c30 0%, #112d52 100%);
     padding: 60px 0;
@@ -55,7 +50,6 @@
 .hero-section .display-4 span {
     color: #36b3d6;
     text-decoration: underline;
-    
 }
 
 .hero-section .lead {
@@ -73,13 +67,7 @@
     flex-wrap: wrap;
 }
 
-/* Services Section */
-
-.services {
-    padding: 100px 0;
-    background-color: var(--light-gray);
-}
-
+/* ==================== SERVICES SECTION ==================== */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -87,7 +75,7 @@
 }
 
 .service-card {
-    background-color: var(--white);
+    background-color: #ffffff;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -95,100 +83,19 @@
     text-align: center;
 }
 
-
-.container {
-        padding: 0 15px;
-    }
-    
-    .section-header {
-        text-align: center;
-        margin-bottom: 3rem;
-    }
-    
-    .section-header h2 {
-        font-size: 2rem;
-    }
-    
-    .section-header p {
-        font-size: 1rem;
-    }
-
-    
-/* Solutions Section */
-.solutions {
-    padding: 100px 0;
-    background-color: var(--white);
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
-.solutions-content {
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-}
-
-.solution-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-    background-color: #1e2234;
-    padding: 2rem;
-    border-radius: 16px;
-    color: #ffffff;
-    
-}
-
-.solution-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.image-placeholder {
-    width: 350px;
-    height: 350px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    color: #ffffff;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-}
-
-.image-placeholder .responsive-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-footer {
+/* ==================== FOOTER ==================== */
+.footer {
     background-color: #13182b;
     color: #ffffff;
-    padding: 40px 0;
-}
-
-footer .social-icons a {
-    color: #ffffff;
-    margin: 0 10px;
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
-}
-
-
-/* Footer responsiveness */
-.footer {
     padding: 2rem 0;
 }
 
+/* ==================== RESPONSIVE ==================== */
 @media (max-width: 768px) {
     .footer {
         padding: 1.5rem 0;
