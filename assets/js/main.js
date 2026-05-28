@@ -2,8 +2,8 @@ import { fetchIndicadores } from './api.js';
 
 function crearTarjeta(indicador) {
     const card = document.createElement('div');
-    card.className = 'card mb-3';
-    card.style.maxWidth = '18rem';
+    card.className = 'card';
+    card.style.maxWidth = '20rem';
 
     const cardBody = document.createElement('div');
     cardBody.className = 'card-body';
@@ -14,7 +14,7 @@ function crearTarjeta(indicador) {
 
     const value = document.createElement('p');
     value.className = 'card-text';
-    value.textContent = `Valor: ${indicador.valor}`;
+    value.textContent = `Valor: ${indicador.valor.toLocaleString('es-CL', { style: 'currency', currency: 'CLP' })}`;
 
     cardBody.appendChild(title);
     cardBody.appendChild(value);
