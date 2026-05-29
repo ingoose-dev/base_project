@@ -105,3 +105,17 @@
         font-size: 0.9rem;
     }
 }
+
+@font-face {
+    font-family: 'Bitink';
+    src: url('../fonts/Bitink.otf') format('opentype'),
+         url('../fonts/Bitink.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ingoose-text {
+    font-family: 'Bitink', Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
