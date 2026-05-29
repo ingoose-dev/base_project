@@ -1,11 +1,12 @@
 # Changelog
-## [v2.0] — 2026-XX-XX
+## [v2.0] — Evaluacion2
 ### Agregado
-- E1: Validación de formulario de contacto con errores inline
-- E2: Consumo de API [nombre] con renderizado dinámico de resultados
-- E4: Modo oscuro persistente con localStorage
+- E1: agregación de fonts btink del logo
+- E2: consumo de api indicadores con su renderizado
+- E3: agregación de favicon
+
 ### Mejorado
-- Performance general (Lighthouse: Performance 88, Accessibility 92)
-- Organización del JS en módulos separados
-## [v1.0] — 2026-XX-XX
+- iconos de redes sociales
+
+## [v1.0] — Evaliacion1
 - Entrega inicial: sitio estático con Bootstrap 5 + CSS custom + eventos básicos
